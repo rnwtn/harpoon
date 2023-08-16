@@ -200,6 +200,7 @@ function M.setup(config)
         log.debug("setup(): No cache config present at", cache_config)
         c_config = {}
     end
+    c_config.menu = {}
 
     local complete_config = merge_tables({
         projects = {},
