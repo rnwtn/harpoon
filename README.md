@@ -17,6 +17,8 @@
 * [API](#-API)
     * [Config](#config)
     * [Settings](#settings)
+    * [Extend](#extend)
+    * [Builtin Extensions](#builtin-extensions)
 * [Contribution](#-Contribution)
 * [Social](#-Social)
 * [Note to legacy Harpoon 1 users](#-Note-to-legacy-Harpoon-1-users)
