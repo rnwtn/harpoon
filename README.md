@@ -275,7 +275,7 @@ harpoon:extend({
 })
 ```
 
-## Builtin Extensions
+### Builtin Extensions
 Harpoon has a couple builtin extensions you can use.
 
 **Available Builtins**
