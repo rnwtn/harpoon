@@ -244,7 +244,7 @@ You can extend harpoon's functionality by defining functions that run in respons
 
 **Available Events**
 | Name | Description |
-| -------- | --- |
+| :---: | --- |
 | SETUP_CALLED     | Triggers on `Harpoon:setup` |
 | LIST_CREATED     | Triggers on `Harpoon:list` if the list was not loaded into memory | 
 | LIST_READ        | Triggers on `Harpoon:list` if the list was loaded into memory | 
