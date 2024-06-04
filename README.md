@@ -294,7 +294,7 @@ harpoon:setup()
 -- Setup keymaps for number row
 harpoon:extend(extensions.builtins.navigate_with_number());
 
--- Setup notifications when a file is navigated to (useful if you have a non-blocking notification system in place)
+-- Setup notifications when a file is navigated to
 local command = ":lua vim.notify('Switched to ' .. vim.fn.expand('%:p'))"
 harpoon:extend(extensions.builtins.command_on_nav(command));
 ```
