@@ -257,9 +257,8 @@ You can extend harpoon's functionality by defining functions that run in respons
 | NAVIGATE         | Triggers on `HarpoonList:select` by default. Select functionality can be overwritten in setup |
 
 **Example**
-Here's adding keymaps to open buffers in a new split/tab
-
 ```lua
+-- adding keymaps to open buffers in a new split/tab
 harpoon:extend({
   UI_CREATE = function(cx)
     vim.keymap.set("n", "<C-v>", function()
